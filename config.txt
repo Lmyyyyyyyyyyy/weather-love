@@ -1,16 +1,14 @@
 {
 # 微信公众号配置
-"app_id": "wxc1570adfb14d6f05",
-"app_secret": "343a4cee2112c790644224927bd6b955",
-"template_id": "nDUfub40LP1REf2l41Mb1Wcmx14ePUguXj3o7Tsas_4",
-"user": ["onzgF6Z2UhdV4b6USPcJCGH2lkd4","onzgF6XFGSHsMoEsVGGbfQV5yR_k"], # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+"app_id": "公众号appId", # 公众号appId
+"app_secret": "公众号appSecret", # 公众号appSecret
+"template_id": "模板消息id", # 模板消息id
+"user": ["接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]"],  # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+
 # 信息配置
-"weather_key": "b2fde7a66e1f472fada5e4ee197eb519",
 "province": "广东", # 所在省份
-"region": "潮南区", # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"city": "汕头", # 所在城市
 "birthday1": {"name": "小林猪猪", "birthday": "2002-02-13"},  # 生日1，姓名和生日，生日若为农历在最前面加上r即可
 "birthday2": {"name": "小林猪猪", "birthday": "2002-01-02"}, # # 生日2，同上
-"love_date": "2022-11-07",  # 在一起的日期，暂不支持农历
-"note_ch": "在最好的时光，做想做的梦，去想去的地方", # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_en": "study hard and make progress every day!" # 金句英文
+"love_date": "2022-11-07"  # 在一起的日期，暂不支持农历
 }
